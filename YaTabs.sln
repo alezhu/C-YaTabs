@@ -8,6 +8,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YaTabsPS", "YaTabs\YaTabsPS
 		{9C4C5A11-81FC-4261-8E6C-90609FB37014} = {9C4C5A11-81FC-4261-8E6C-90609FB37014}
 	EndProjectSection
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "YaTabsSetup", "YaTabsSetup\YaTabsSetup.vdproj", "{5E2CCC75-957B-4F4A-A003-2F6BB687F4EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2CD024E8-4A73-49F2-9E72-448B95EA65F7}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -32,6 +36,10 @@ Global
 		{C791FD11-B953-4DC2-B83C-96AA8FA6E447}.Release|Win32.ActiveCfg = Release|Win32
 		{C791FD11-B953-4DC2-B83C-96AA8FA6E447}.Unicode Debug|Win32.ActiveCfg = Debug|Win32
 		{C791FD11-B953-4DC2-B83C-96AA8FA6E447}.Unicode Release|Win32.ActiveCfg = Release|Win32
+		{5E2CCC75-957B-4F4A-A003-2F6BB687F4EA}.Debug|Win32.ActiveCfg = Debug
+		{5E2CCC75-957B-4F4A-A003-2F6BB687F4EA}.Release|Win32.ActiveCfg = Release
+		{5E2CCC75-957B-4F4A-A003-2F6BB687F4EA}.Unicode Debug|Win32.ActiveCfg = Debug
+		{5E2CCC75-957B-4F4A-A003-2F6BB687F4EA}.Unicode Release|Win32.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

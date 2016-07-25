@@ -2,7 +2,7 @@ HKCR
 {
 	NoRemove CLSID
 	{
-		ForceRemove {7F98D004-4439-4DD8-B225-30AC6AC3AE80} = s 'Plugin Class'
+		ForceRemove {7F98D004-4439-4DD8-B225-30AC6AC3AE80} = s 'YaTabs IE plugin'
 		{
 			ForceRemove Programmable
 			InprocServer32 = s '%MODULE%'
