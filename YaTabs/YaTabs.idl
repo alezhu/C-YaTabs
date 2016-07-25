@@ -1,0 +1,34 @@
+// YaTabs.idl : IDL source for YaTabs
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (YaTabs.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(4A5A497E-9617-41B9-AE7F-BDC02C38592D),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IPlugin : IDispatch{
+};
+[
+	uuid(C20B0162-2C67-4D06-9A3A-AD1B6777D393),
+	version(1.0),
+]
+library YaTabsLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(7F98D004-4439-4DD8-B225-30AC6AC3AE80)		
+	]
+	coclass Plugin
+	{
+		[default] interface IPlugin;
+	};
+};
+
